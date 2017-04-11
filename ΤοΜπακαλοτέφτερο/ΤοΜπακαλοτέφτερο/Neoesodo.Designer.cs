@@ -38,7 +38,7 @@
             this.Font = new System.Drawing.Font("Comic Sans MS", 10F);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Neoesodo";
-            this.Text = "ΝΕΟ ΕΣΟΔΟ";
+            this.Text = "ΝΕΟ ΕΣΟΔ";
             this.ResumeLayout(false);
 
         }
