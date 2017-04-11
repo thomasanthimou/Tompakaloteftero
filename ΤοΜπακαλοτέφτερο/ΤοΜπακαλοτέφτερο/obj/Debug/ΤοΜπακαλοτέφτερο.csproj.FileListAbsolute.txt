@@ -18,3 +18,13 @@ C:\Users\Thomas\Documents\Visual Studio 2017\Projects\ΤοΜπακαλοτέφτ
 C:\Users\Thomas\Documents\Visual Studio 2017\Projects\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\obj\Debug\ΤοΜπακαλοτέφτερο.csproj.GenerateResource.Cache
 C:\Users\Thomas\Documents\Visual Studio 2017\Projects\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\obj\Debug\ΤοΜπακαλοτέφτερο.exe
 C:\Users\Thomas\Documents\Visual Studio 2017\Projects\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\obj\Debug\ΤοΜπακαλοτέφτερο.pdb
+C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\bin\Debug\ΤοΜπακαλοτέφτερο.mdb
+C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\bin\Debug\ΤοΜπακαλοτέφτερο.exe.config
+C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\bin\Debug\ΤοΜπακαλοτέφτερο.exe
+C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\bin\Debug\ΤοΜπακαλοτέφτερο.pdb
+C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\obj\Debug\ΤοΜπακαλοτέφτερο.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\obj\Debug\ΤοΜπακαλοτέφτερο.mainForm.resources
+C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\obj\Debug\ΤοΜπακαλοτέφτερο.Properties.Resources.resources
+C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\obj\Debug\ΤοΜπακαλοτέφτερο.csproj.GenerateResource.Cache
+C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\obj\Debug\ΤοΜπακαλοτέφτερο.exe
+C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\obj\Debug\ΤοΜπακαλοτέφτερο.pdb
