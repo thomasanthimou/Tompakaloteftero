@@ -22,7 +22,7 @@ namespace ΤοΜπακαλοτέφτερο
             Loadesoda();
 
         }
-
+        //fortoma pinaka eksodwn sto datagrid eksodwn
         private void Loadeksoda()
         {
             OleDbConnection connection = new OleDbConnection(); 
@@ -39,7 +39,7 @@ namespace ΤοΜπακαλοτέφτερο
             eksodadataGridView.DataSource = ds.Tables[0];
             connection.Close();
         }
-
+        //fortoma pinaka esodwn sto datagrid esodw
         private void Loadesoda()
         {
             OleDbConnection connection = new OleDbConnection();
