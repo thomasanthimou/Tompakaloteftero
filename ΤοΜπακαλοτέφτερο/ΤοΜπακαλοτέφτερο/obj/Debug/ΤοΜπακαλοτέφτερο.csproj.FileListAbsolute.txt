@@ -28,3 +28,5 @@ C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜ
 C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\obj\Debug\ΤοΜπακαλοτέφτερο.csproj.GenerateResource.Cache
 C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\obj\Debug\ΤοΜπακαλοτέφτερο.exe
 C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\obj\Debug\ΤοΜπακαλοτέφτερο.pdb
+C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\obj\Debug\ΤοΜπακαλοτέφτερο.Neoesodo.resources
+C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\obj\Debug\ΤοΜπακαλοτέφτερο.Neoeksodo.resources

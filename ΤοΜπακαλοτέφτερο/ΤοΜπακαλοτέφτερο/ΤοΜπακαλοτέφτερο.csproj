@@ -50,6 +50,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Neoeksodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neoeksodo.Designer.cs">
+      <DependentUpon>Neoeksodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neoesodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neoesodo.Designer.cs">
+      <DependentUpon>Neoesodo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ΤοΜπακαλοτέφτεροDataSet.Designer.cs">
@@ -59,6 +71,12 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neoeksodo.resx">
+      <DependentUpon>Neoeksodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neoesodo.resx">
+      <DependentUpon>Neoesodo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

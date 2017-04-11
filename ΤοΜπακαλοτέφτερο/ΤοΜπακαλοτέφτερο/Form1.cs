@@ -39,7 +39,7 @@ namespace ΤοΜπακαλοτέφτερο
             eksodadataGridView.DataSource = ds.Tables[0];
             connection.Close();
         }
-        //fortoma pinaka esodwn sto datagrid esodw
+        //fortoma pinaka esodwn sto datagrid esodwn
         private void Loadesoda()
         {
             OleDbConnection connection = new OleDbConnection();
@@ -57,6 +57,21 @@ namespace ΤοΜπακαλοτέφτερο
             connection.Close();
         }
 
-        
+        private void buttonEsoda_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void εΞΟΔΟΣToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Neoesodo newesodoform = new Neoesodo();
+            newesodoform.ShowDialog();
+        }
+
+        private void νΕΟΕΞΟΔΟToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Neoeksodo neweksodoform = new Neoeksodo();
+            neweksodoform.ShowDialog();
+        }
     }
 }

@@ -66,11 +66,15 @@
             this.label5 = new System.Windows.Forms.Label();
             this.esodaTableAdapter = new ΤοΜπακαλοτέφτερο.ΤοΜπακαλοτέφτεροDataSetTableAdapters.esodaTableAdapter();
             this.eksodaTableAdapter = new ΤοΜπακαλοτέφτερο.ΤοΜπακαλοτέφτεροDataSetTableAdapters.eksodaTableAdapter();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.εΞΟΔΟΣToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.νΕΟΕΞΟΔΟToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.esodadataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.esodaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.τοΜπακαλοτέφτεροDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.eksodadataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.eksodaBindingSource)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // esodadataGridView1
@@ -366,6 +370,7 @@
             this.buttonEsoda.TabIndex = 11;
             this.buttonEsoda.Text = "ΜΑΣ ΞΑΦΡΙΣΑΝ";
             this.buttonEsoda.UseVisualStyleBackColor = true;
+            this.buttonEsoda.Click += new System.EventHandler(this.buttonEsoda_Click);
             // 
             // textBox1
             // 
@@ -395,6 +400,32 @@
             // 
             this.eksodaTableAdapter.ClearBeforeFill = true;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.εΞΟΔΟΣToolStripMenuItem,
+            this.νΕΟΕΞΟΔΟToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1284, 24);
+            this.menuStrip1.TabIndex = 14;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // εΞΟΔΟΣToolStripMenuItem
+            // 
+            this.εΞΟΔΟΣToolStripMenuItem.Font = new System.Drawing.Font("Comic Sans MS", 8.25F);
+            this.εΞΟΔΟΣToolStripMenuItem.Name = "εΞΟΔΟΣToolStripMenuItem";
+            this.εΞΟΔΟΣToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
+            this.εΞΟΔΟΣToolStripMenuItem.Text = "ΝΕΟ ΕΣΟΔΟ";
+            this.εΞΟΔΟΣToolStripMenuItem.Click += new System.EventHandler(this.εΞΟΔΟΣToolStripMenuItem_Click);
+            // 
+            // νΕΟΕΞΟΔΟToolStripMenuItem
+            // 
+            this.νΕΟΕΞΟΔΟToolStripMenuItem.Name = "νΕΟΕΞΟΔΟToolStripMenuItem";
+            this.νΕΟΕΞΟΔΟToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
+            this.νΕΟΕΞΟΔΟToolStripMenuItem.Text = "ΝΕΟ ΕΞΟΔΟ";
+            this.νΕΟΕΞΟΔΟToolStripMenuItem.Click += new System.EventHandler(this.νΕΟΕΞΟΔΟToolStripMenuItem_Click);
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -415,6 +446,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.eksodadataGridView);
             this.Controls.Add(this.esodadataGridView1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "mainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Το Μπακαλοτέφτερο";
@@ -424,6 +457,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.τοΜπακαλοτέφτεροDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.eksodadataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.eksodaBindingSource)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -458,6 +493,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn imerominiaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn amountDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn remarksDataGridViewTextBoxColumn;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem εΞΟΔΟΣToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem νΕΟΕΞΟΔΟToolStripMenuItem;
     }
 }
 
