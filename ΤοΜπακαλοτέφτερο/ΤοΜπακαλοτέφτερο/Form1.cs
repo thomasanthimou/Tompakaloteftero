@@ -57,11 +57,6 @@ namespace ΤοΜπακαλοτέφτερο
             connection.Close();
         }
 
-        private void buttonEsoda_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void εΞΟΔΟΣToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Neoesodo newesodoform = new Neoesodo();
@@ -73,5 +68,7 @@ namespace ΤοΜπακαλοτέφτερο
             Neoeksodo neweksodoform = new Neoeksodo();
             neweksodoform.ShowDialog();
         }
+
+        
     }
 }
