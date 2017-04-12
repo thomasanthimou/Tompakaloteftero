@@ -15,5 +15,10 @@ namespace ΤοΜπακαλοτέφτερο
         {
             InitializeComponent();
         }
+
+        private void Neoesodo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
