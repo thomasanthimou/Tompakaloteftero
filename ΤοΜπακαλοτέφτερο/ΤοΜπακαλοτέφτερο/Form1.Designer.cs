@@ -63,7 +63,8 @@
             this.eksodaTableAdapter = new ΤοΜπακαλοτέφτερο.ΤοΜπακαλοτέφτεροDataSetTableAdapters.eksodaTableAdapter();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.εΞΟΔΟΣToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.νΕΟΕΞΟΔΟToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.νΕΟΕΣΟΔΟToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.νΕΟΣΤΑΘΕΡΟΕΞΟΔΟToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.neoeksodobutton = new System.Windows.Forms.Button();
             this.neoesodobutton = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -271,6 +272,7 @@
             this.maincomboBox.Name = "maincomboBox";
             this.maincomboBox.Size = new System.Drawing.Size(219, 31);
             this.maincomboBox.TabIndex = 4;
+            this.maincomboBox.SelectedIndexChanged += new System.EventHandler(this.maincomboBox_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -297,7 +299,7 @@
             // 
             this.SinolaeksodatextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SinolaeksodatextBox.Font = new System.Drawing.Font("Comic Sans MS", 14F);
-            this.SinolaeksodatextBox.Location = new System.Drawing.Point(973, 649);
+            this.SinolaeksodatextBox.Location = new System.Drawing.Point(1020, 648);
             this.SinolaeksodatextBox.Name = "SinolaeksodatextBox";
             this.SinolaeksodatextBox.Size = new System.Drawing.Size(100, 34);
             this.SinolaeksodatextBox.TabIndex = 7;
@@ -354,39 +356,48 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.εΞΟΔΟΣToolStripMenuItem,
-            this.νΕΟΕΞΟΔΟToolStripMenuItem});
+            this.εΞΟΔΟΣToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1284, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1284, 25);
             this.menuStrip1.TabIndex = 14;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // εΞΟΔΟΣToolStripMenuItem
             // 
-            this.εΞΟΔΟΣToolStripMenuItem.Font = new System.Drawing.Font("Comic Sans MS", 8.25F);
+            this.εΞΟΔΟΣToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.νΕΟΕΣΟΔΟToolStripMenuItem,
+            this.νΕΟΣΤΑΘΕΡΟΕΞΟΔΟToolStripMenuItem});
+            this.εΞΟΔΟΣToolStripMenuItem.Font = new System.Drawing.Font("Comic Sans MS", 9F);
             this.εΞΟΔΟΣToolStripMenuItem.Name = "εΞΟΔΟΣToolStripMenuItem";
-            this.εΞΟΔΟΣToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
-            this.εΞΟΔΟΣToolStripMenuItem.Text = "ΝΕΟ ΕΣΟΔΟ";
-            this.εΞΟΔΟΣToolStripMenuItem.Click += new System.EventHandler(this.εΞΟΔΟΣToolStripMenuItem_Click);
+            this.εΞΟΔΟΣToolStripMenuItem.Size = new System.Drawing.Size(181, 21);
+            this.εΞΟΔΟΣToolStripMenuItem.Text = "ΣΤΑΘΕΡΑ ΕΣΟΔΑ/ΕΞΟΔΑ";
             // 
-            // νΕΟΕΞΟΔΟToolStripMenuItem
+            // νΕΟΕΣΟΔΟToolStripMenuItem
             // 
-            this.νΕΟΕΞΟΔΟToolStripMenuItem.Name = "νΕΟΕΞΟΔΟToolStripMenuItem";
-            this.νΕΟΕΞΟΔΟToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
-            this.νΕΟΕΞΟΔΟToolStripMenuItem.Text = "ΝΕΟ ΕΞΟΔΟ";
-            this.νΕΟΕΞΟΔΟToolStripMenuItem.Click += new System.EventHandler(this.νΕΟΕΞΟΔΟToolStripMenuItem_Click);
+            this.νΕΟΕΣΟΔΟToolStripMenuItem.Name = "νΕΟΕΣΟΔΟToolStripMenuItem";
+            this.νΕΟΕΣΟΔΟToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
+            this.νΕΟΕΣΟΔΟToolStripMenuItem.Text = "ΝΕΟ ΣΤΑΘΕΡΟ ΕΣΟΔΟ";
+            this.νΕΟΕΣΟΔΟToolStripMenuItem.Click += new System.EventHandler(this.νΕΟΕΣΟΔΟToolStripMenuItem_Click);
+            // 
+            // νΕΟΣΤΑΘΕΡΟΕΞΟΔΟToolStripMenuItem
+            // 
+            this.νΕΟΣΤΑΘΕΡΟΕΞΟΔΟToolStripMenuItem.Name = "νΕΟΣΤΑΘΕΡΟΕΞΟΔΟToolStripMenuItem";
+            this.νΕΟΣΤΑΘΕΡΟΕΞΟΔΟToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
+            this.νΕΟΣΤΑΘΕΡΟΕΞΟΔΟToolStripMenuItem.Text = "ΝΕΟ ΣΤΑΘΕΡΟ ΕΞΟΔΟ";
+            this.νΕΟΣΤΑΘΕΡΟΕΞΟΔΟToolStripMenuItem.Click += new System.EventHandler(this.νΕΟΣΤΑΘΕΡΟΕΞΟΔΟToolStripMenuItem_Click);
             // 
             // neoeksodobutton
             // 
             this.neoeksodobutton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.neoeksodobutton.Font = new System.Drawing.Font("Comic Sans MS", 12F);
-            this.neoeksodobutton.Location = new System.Drawing.Point(549, 180);
+            this.neoeksodobutton.Location = new System.Drawing.Point(549, 177);
             this.neoeksodobutton.Name = "neoeksodobutton";
             this.neoeksodobutton.Size = new System.Drawing.Size(179, 38);
             this.neoeksodobutton.TabIndex = 15;
             this.neoeksodobutton.Text = "ΝΕΟ ΕΞΟΔΟ";
             this.neoeksodobutton.UseVisualStyleBackColor = true;
+            this.neoeksodobutton.Click += new System.EventHandler(this.neoeksodobutton_Click);
             // 
             // neoesodobutton
             // 
@@ -398,11 +409,12 @@
             this.neoesodobutton.TabIndex = 16;
             this.neoesodobutton.Text = "ΝΕΟ ΕΣΟΔΟ";
             this.neoesodobutton.UseVisualStyleBackColor = true;
+            this.neoesodobutton.Click += new System.EventHandler(this.neoesodobutton_Click);
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Comic Sans MS", 14F);
-            this.textBox2.Location = new System.Drawing.Point(283, 649);
+            this.textBox2.Location = new System.Drawing.Point(279, 649);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 34);
             this.textBox2.TabIndex = 17;
@@ -503,14 +515,14 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn remarksDataGridViewTextBoxColumn;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem εΞΟΔΟΣToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem νΕΟΕΞΟΔΟToolStripMenuItem;
         private System.Windows.Forms.Button neoeksodobutton;
         private System.Windows.Forms.Button neoesodobutton;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        
+        private System.Windows.Forms.ToolStripMenuItem νΕΟΕΣΟΔΟToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem νΕΟΣΤΑΘΕΡΟΕΞΟΔΟToolStripMenuItem;
     }
 }
 

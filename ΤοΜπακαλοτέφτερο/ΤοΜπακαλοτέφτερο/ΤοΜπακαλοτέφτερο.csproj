@@ -64,10 +64,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="prosthikieksodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prosthikieksodo.Designer.cs">
+      <DependentUpon>prosthikieksodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="prosthikiesodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prosthikiesodo.Designer.cs">
+      <DependentUpon>prosthikiesodo.cs</DependentUpon>
+    </Compile>
     <Compile Include="ΤοΜπακαλοτέφτεροDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ΤοΜπακαλοτέφτεροDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ΤοΜπακαλοτέφτεροDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ΤοΜπακαλοτέφτεροDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ΤοΜπακαλοτέφτεροDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ΤοΜπακαλοτέφτεροDataSet2.xsd</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -87,6 +109,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="prosthikieksodo.resx">
+      <DependentUpon>prosthikieksodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prosthikiesodo.resx">
+      <DependentUpon>prosthikiesodo.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -107,6 +135,28 @@
     </None>
     <None Include="ΤοΜπακαλοτέφτεροDataSet.xss">
       <DependentUpon>ΤοΜπακαλοτέφτεροDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ΤοΜπακαλοτέφτεροDataSet1.xsc">
+      <DependentUpon>ΤοΜπακαλοτέφτεροDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ΤοΜπακαλοτέφτεροDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ΤοΜπακαλοτέφτεροDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ΤοΜπακαλοτέφτεροDataSet1.xss">
+      <DependentUpon>ΤοΜπακαλοτέφτεροDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ΤοΜπακαλοτέφτεροDataSet2.xsc">
+      <DependentUpon>ΤοΜπακαλοτέφτεροDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ΤοΜπακαλοτέφτεροDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ΤοΜπακαλοτέφτεροDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ΤοΜπακαλοτέφτεροDataSet2.xss">
+      <DependentUpon>ΤοΜπακαλοτέφτεροDataSet2.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

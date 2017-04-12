@@ -17,9 +17,7 @@ namespace ΤοΜπακαλοτέφτερο
         
         public mainForm()
         {
-            InitializeComponent();
-            Loadeksoda();
-            Loadesoda();
+            InitializeComponent();           
 
         }
         //fortoma pinaka eksodwn sto datagrid eksodwn
@@ -30,7 +28,7 @@ namespace ΤοΜπακαλοτέφτερο
             connection.Open();
             OleDbCommand commandeksoda = new OleDbCommand();
             commandeksoda.Connection = connection;
-            string query = "select * from eksoda";
+            string query = "select * from eksoda where minas like '" + maincomboBox.Text + "'";
             commandeksoda.CommandText = query;
 
             OleDbDataAdapter da = new OleDbDataAdapter(commandeksoda);
@@ -47,7 +45,7 @@ namespace ΤοΜπακαλοτέφτερο
             connection.Open();
             OleDbCommand commandesoda = new OleDbCommand();
             commandesoda.Connection = connection;
-            string query = "select * from esoda";
+            string query = "select * from esoda where minas like '" + maincomboBox.Text + "'";
             commandesoda.CommandText = query;
 
             OleDbDataAdapter da2 = new OleDbDataAdapter(commandesoda);
@@ -56,19 +54,35 @@ namespace ΤοΜπακαλοτέφτερο
             esodadataGridView1.DataSource = ds2.Tables[0];
             connection.Close();
         }
-
-        private void εΞΟΔΟΣToolStripMenuItem_Click(object sender, EventArgs e)
+       
+        private void νΕΟΕΣΟΔΟToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Neoesodo newesodoform = new Neoesodo();
             newesodoform.ShowDialog();
         }
 
-        private void νΕΟΕΞΟΔΟToolStripMenuItem_Click(object sender, EventArgs e)
+        private void νΕΟΣΤΑΘΕΡΟΕΞΟΔΟToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Neoeksodo neweksodoform = new Neoeksodo();
             neweksodoform.ShowDialog();
         }
 
-        
+        private void maincomboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Loadeksoda();
+            Loadesoda();
+        }
+
+        private void neoesodobutton_Click(object sender, EventArgs e)
+        {
+            prosthikiesodo newprosthikiesodo = new prosthikiesodo();
+            newprosthikiesodo.ShowDialog();
+        }
+
+        private void neoeksodobutton_Click(object sender, EventArgs e)
+        {
+            prosthikieksodo newprosthikieκsodo = new prosthikieksodo();
+            newprosthikieκsodo.ShowDialog();
+        }
     }
 }
