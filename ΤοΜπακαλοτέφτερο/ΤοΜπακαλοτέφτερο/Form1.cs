@@ -26,7 +26,7 @@ namespace ΤοΜπακαλοτέφτερο
         private void Loadeksoda()
         {
             OleDbConnection connection = new OleDbConnection(); 
-            connection.ConnectionString = @"Provider = Microsoft.Jet.OLEDB.4.0; Data Source =c:\users\thomas\documents\visual studio 2017\Projects\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο.mdb";
+            connection.ConnectionString = @"Provider = Microsoft.Jet.OLEDB.4.0; Data Source =C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο.mdb";
             connection.Open();
             OleDbCommand commandeksoda = new OleDbCommand();
             commandeksoda.Connection = connection;
@@ -43,7 +43,7 @@ namespace ΤοΜπακαλοτέφτερο
         private void Loadesoda()
         {
             OleDbConnection connection = new OleDbConnection();
-            connection.ConnectionString = @"Provider = Microsoft.Jet.OLEDB.4.0; Data Source =c:\users\thomas\documents\visual studio 2017\Projects\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο.mdb";
+            connection.ConnectionString = @"Provider = Microsoft.Jet.OLEDB.4.0; Data Source =C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο.mdb";
             connection.Open();
             OleDbCommand commandesoda = new OleDbCommand();
             commandesoda.Connection = connection;
