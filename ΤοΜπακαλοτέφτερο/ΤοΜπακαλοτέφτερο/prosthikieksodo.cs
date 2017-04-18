@@ -34,9 +34,8 @@ namespace ΤοΜπακαλοτέφτερο
             OleDbConnection connection = new OleDbConnection();
             connection.ConnectionString = @"Provider = Microsoft.Jet.OLEDB.4.0; Data Source =C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο.mdb";
             connection.Open();
-            OleDbCommand command = new OleDbCommand("INSERT INTO eksoda(ono,imerominia,amount,remarks,minas) VALUES('" + comboBox1.Text + "','" + dateTimePicker1.Text + "','" + textBox1.Text + "','" + textBox2.Text + "','"+ dateTimePicker1.Value.Month +"')",connection);
-
-           if (command.ExecuteNonQuery() == 1)
+            OleDbCommand command = new OleDbCommand("INSERT INTO eksoda(ono,imerominia,amount,remarks,minasID) VALUES('" + comboBox1.Text + "','" + dateTimePicker1.Text + "','" + textBox1.Text + "','" + textBox2.Text + "','"+ dateTimePicker1.Value.Month +"')",connection);
+if (command.ExecuteNonQuery() == 1)
             {
                 MessageBox.Show("ΑΠΟΘΗΚΕΥΤΗΚΕ");
                 this.Close();

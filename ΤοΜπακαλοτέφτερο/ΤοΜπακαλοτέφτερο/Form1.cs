@@ -28,7 +28,7 @@ namespace ΤοΜπακαλοτέφτερο
             connection.Open();
             OleDbCommand commandeksoda = new OleDbCommand();
             commandeksoda.Connection = connection;
-            string query = "select * from eksoda where minas like '" + maincomboBox.Text + "'";
+            string query = "SELECT * FROM eksoda where minasID in(SELECT ID FROM mines where eksoda.minasID=mines.ID)";
             commandeksoda.CommandText = query;
 
             OleDbDataAdapter da = new OleDbDataAdapter(commandeksoda);
@@ -45,7 +45,7 @@ namespace ΤοΜπακαλοτέφτερο
             connection.Open();
             OleDbCommand commandesoda = new OleDbCommand();
             commandesoda.Connection = connection;
-            string query = "select * from esoda where minas like '" + maincomboBox.Text + "'";
+            string query = "SELECT * FROM eksoda where minasID in(SELECT ID FROM mines where eksoda.minasID=mines.ID)";
             commandesoda.CommandText = query;
 
             OleDbDataAdapter da2 = new OleDbDataAdapter(commandesoda);
@@ -83,6 +83,13 @@ namespace ΤοΜπακαλοτέφτερο
         {
             prosthikieksodo newprosthikieκsodo = new prosthikieksodo();
             newprosthikieκsodo.ShowDialog();
+        }
+
+        private void mainForm_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'τοΜπακαλοτέφτεροDataSet3.mines' table. You can move, or remove it, as needed.
+            this.minesTableAdapter.Fill(this.τοΜπακαλοτέφτεροDataSet3.mines);
+
         }
     }
 }
