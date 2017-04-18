@@ -17,25 +17,31 @@ namespace ΤοΜπακαλοτέφτερο
         
         public mainForm()
         {
-            InitializeComponent();           
+            InitializeComponent();
+            Loadeksoda();
+            Loadesoda();
 
         }
         //fortoma pinaka eksodwn sto datagrid eksodwn
         private void Loadeksoda()
         {
+            
+
+            
             OleDbConnection connection = new OleDbConnection(); 
             connection.ConnectionString = @"Provider = Microsoft.Jet.OLEDB.4.0; Data Source =C:\Users\Thomas\Desktop\Tompakaloteftero\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο\ΤοΜπακαλοτέφτερο.mdb";
             connection.Open();
             OleDbCommand commandeksoda = new OleDbCommand();
             commandeksoda.Connection = connection;
-            string query = "SELECT * FROM eksoda where minasID in(SELECT ID FROM mines where eksoda.minasID=mines.ID)";
+            int index = maincomboBox.SelectedIndex + 1;
+            string query = "SELECT * FROM eksoda where eksoda.minasID = "+ index +" ";
             commandeksoda.CommandText = query;
-
             OleDbDataAdapter da = new OleDbDataAdapter(commandeksoda);
             DataSet ds = new DataSet();
             da.Fill(ds);
             eksodadataGridView.DataSource = ds.Tables[0];
             connection.Close();
+            
         }
         //fortoma pinaka esodwn sto datagrid esodwn
         private void Loadesoda()
@@ -45,9 +51,9 @@ namespace ΤοΜπακαλοτέφτερο
             connection.Open();
             OleDbCommand commandesoda = new OleDbCommand();
             commandesoda.Connection = connection;
-            string query = "SELECT * FROM eksoda where minasID in(SELECT ID FROM mines where eksoda.minasID=mines.ID)";
+            int index = maincomboBox.SelectedIndex + 1;
+            string query = "SELECT * FROM esoda where esoda.minasID = " + index + " ";
             commandesoda.CommandText = query;
-
             OleDbDataAdapter da2 = new OleDbDataAdapter(commandesoda);
             DataSet ds2 = new DataSet();
             da2.Fill(ds2);

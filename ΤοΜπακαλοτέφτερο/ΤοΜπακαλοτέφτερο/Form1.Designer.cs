@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
             this.esodadataGridView1 = new System.Windows.Forms.DataGridView();
             this.onoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.imerominiaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -90,20 +90,20 @@
             // 
             this.esodadataGridView1.AllowUserToAddRows = false;
             this.esodadataGridView1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Comic Sans MS", 10F);
-            this.esodadataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle37.Font = new System.Drawing.Font("Comic Sans MS", 10F);
+            this.esodadataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle37;
             this.esodadataGridView1.AutoGenerateColumns = false;
             this.esodadataGridView1.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.esodadataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.esodadataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Comic Sans MS", 12F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.esodadataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle38.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Comic Sans MS", 12F);
+            dataGridViewCellStyle38.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.esodadataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle38;
             this.esodadataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.esodadataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.onoDataGridViewTextBoxColumn,
@@ -111,14 +111,14 @@
             this.amountDataGridViewTextBoxColumn,
             this.remarksDataGridViewTextBoxColumn});
             this.esodadataGridView1.DataSource = this.esodaBindingSource;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Comic Sans MS", 12F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.esodadataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle39.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle39.Font = new System.Drawing.Font("Comic Sans MS", 12F);
+            dataGridViewCellStyle39.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.esodadataGridView1.DefaultCellStyle = dataGridViewCellStyle39;
             this.esodadataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.esodadataGridView1.Location = new System.Drawing.Point(3, 26);
             this.esodadataGridView1.Name = "esodadataGridView1";
@@ -170,20 +170,20 @@
             // 
             this.eksodadataGridView.AllowUserToAddRows = false;
             this.eksodadataGridView.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Comic Sans MS", 10F);
-            this.eksodadataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle40.Font = new System.Drawing.Font("Comic Sans MS", 10F);
+            this.eksodadataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle40;
             this.eksodadataGridView.AutoGenerateColumns = false;
             this.eksodadataGridView.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.eksodadataGridView.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.eksodadataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Comic Sans MS", 12F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.eksodadataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle41.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle41.Font = new System.Drawing.Font("Comic Sans MS", 12F);
+            dataGridViewCellStyle41.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle41.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle41.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle41.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.eksodadataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle41;
             this.eksodadataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.eksodadataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.onoDataGridViewTextBoxColumn1,
@@ -191,14 +191,14 @@
             this.amountDataGridViewTextBoxColumn1,
             this.remarksDataGridViewTextBoxColumn1});
             this.eksodadataGridView.DataSource = this.eksodaBindingSource;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Comic Sans MS", 12F);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.eksodadataGridView.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle45.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle45.Font = new System.Drawing.Font("Comic Sans MS", 12F);
+            dataGridViewCellStyle45.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle45.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle45.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle45.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.eksodadataGridView.DefaultCellStyle = dataGridViewCellStyle45;
             this.eksodadataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.eksodadataGridView.Location = new System.Drawing.Point(3, 26);
             this.eksodadataGridView.Name = "eksodadataGridView";
@@ -210,8 +210,8 @@
             // onoDataGridViewTextBoxColumn1
             // 
             this.onoDataGridViewTextBoxColumn1.DataPropertyName = "ono";
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Comic Sans MS", 10F);
-            this.onoDataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle42.Font = new System.Drawing.Font("Comic Sans MS", 10F);
+            this.onoDataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle42;
             this.onoDataGridViewTextBoxColumn1.HeaderText = "Περιγραφή";
             this.onoDataGridViewTextBoxColumn1.Name = "onoDataGridViewTextBoxColumn1";
             this.onoDataGridViewTextBoxColumn1.ReadOnly = true;
@@ -219,8 +219,8 @@
             // imerominiaDataGridViewTextBoxColumn1
             // 
             this.imerominiaDataGridViewTextBoxColumn1.DataPropertyName = "imerominia";
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Comic Sans MS", 10F);
-            this.imerominiaDataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle43.Font = new System.Drawing.Font("Comic Sans MS", 10F);
+            this.imerominiaDataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle43;
             this.imerominiaDataGridViewTextBoxColumn1.HeaderText = "Ημερ/νία";
             this.imerominiaDataGridViewTextBoxColumn1.Name = "imerominiaDataGridViewTextBoxColumn1";
             this.imerominiaDataGridViewTextBoxColumn1.ReadOnly = true;
@@ -228,9 +228,9 @@
             // amountDataGridViewTextBoxColumn1
             // 
             this.amountDataGridViewTextBoxColumn1.DataPropertyName = "amount";
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Comic Sans MS", 10F);
-            this.amountDataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle44.Font = new System.Drawing.Font("Comic Sans MS", 10F);
+            this.amountDataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle44;
             this.amountDataGridViewTextBoxColumn1.HeaderText = "Ποσό";
             this.amountDataGridViewTextBoxColumn1.Name = "amountDataGridViewTextBoxColumn1";
             this.amountDataGridViewTextBoxColumn1.ReadOnly = true;
